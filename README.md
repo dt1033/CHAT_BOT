@@ -41,24 +41,7 @@
         <li>dotenv</li>
     </ul>
     
-<h3>Installation</h3>
-    <ol>
-        <li>Clone the repository:
-            <pre><code>git clone https://github.com/your-username/llm-chatbot-pdf.git
-cd llm-chatbot-pdf
-            </code></pre>
-        </li>
-        <li>Install the required packages:
-            <pre><code>pip install -r requirements.txt
-            </code></pre>
-        </li>
-        <li>Set up your OpenAI API key:
-            <p>Create a <code>.env</code> file in the root directory and add your OpenAI API key:</p>
-            <pre><code>OPENAI_API_KEY=your_openai_api_key
-            </code></pre>
-        </li>
-    </ol>
-    
+
 <h3>Running the App</h3>
     <p>Start the Streamlit app:</p>
     <pre><code>streamlit run app.py
