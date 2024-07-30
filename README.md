@@ -9,7 +9,7 @@
     <h1>LLM Chatbot with PDF Integration</h1>
     <p>This repository contains the code for a Streamlit application that allows users to interact with PDF documents using a chatbot powered by Large Language Models (LLMs) from OpenAI. The app uses various libraries such as LangChain, PyPDF2, and FAISS for text processing and embedding.</p>
     
-    <h2>Features</h2>
+<h2>Features</h2>
     <ul>
         <li>Upload and read PDF files.</li>
         <li>Extract text from PDF documents.</li>
@@ -19,7 +19,7 @@
         <li>Accept user questions and provide relevant answers based on the content of the uploaded PDF.</li>
     </ul>
     
-    <h2>Tech Stack</h2>
+<h2>Tech Stack</h2>
     <ul>
         <li><a href="https://streamlit.io/">Streamlit</a> - Web app framework for Python.</li>
         <li><a href="https://platform.openai.com/docs/models">OpenAI</a> - API for accessing language models.</li>
@@ -28,9 +28,8 @@
         <li><a href="https://github.com/facebookresearch/faiss">FAISS</a> - Library for efficient similarity search and clustering of dense vectors.</li>
     </ul>
     
-    <h2>Getting Started</h2>
     
-    <h3>Prerequisites</h3>
+<h3>Prerequisites</h3>
     <p>Ensure you have the following installed:</p>
     <ul>
         <li>Python 3.7+</li>
@@ -42,7 +41,7 @@
         <li>dotenv</li>
     </ul>
     
-    <h3>Installation</h3>
+<h3>Installation</h3>
     <ol>
         <li>Clone the repository:
             <pre><code>git clone https://github.com/your-username/llm-chatbot-pdf.git
@@ -60,12 +59,12 @@ cd llm-chatbot-pdf
         </li>
     </ol>
     
-    <h3>Running the App</h3>
+<h3>Running the App</h3>
     <p>Start the Streamlit app:</p>
     <pre><code>streamlit run app.py
     </code></pre>
     
-    <h3>Usage</h3>
+<h3>Usage</h3>
     <ol>
         <li>Open the app in your browser.</li>
         <li>Upload a PDF file.</li>
@@ -73,13 +72,12 @@ cd llm-chatbot-pdf
         <li>The app will provide an answer based on the PDF content.</li>
     </ol>
     
-    <h2>Code Overview</h2>
+ <h2>Code Overview</h2>
     <p>The main code is in <code>app.py</code>. Below is a brief overview:</p>
     <ul>
         <li><strong>Sidebar</strong>: Contains the app title, description, and author information.</li>
         <li><strong>Main Function</strong>: Handles PDF upload, text extraction, text splitting, and embedding generation/loading.</li>
         <li><strong>Query Handling</strong>: Accepts user questions and returns relevant answers using the OpenAI model.</li>
     </ul>
-    <pre><code>
 
 
